@@ -1,6 +1,6 @@
 .intro-content {
     position: relative;
-    /*top: -8rem;*/
+    /* top: -8rem; */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -22,9 +22,7 @@
 
 .top3-content {
     max-width: 64rem;
-    height: 100vh;
     display: flex;
-    /*flex-flow: column wrap;*/
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
@@ -33,6 +31,7 @@
 }
 
 .grid-one-content {
+    display: flex;
     flex-flow: column wrap;
     justify-content: center;
     min-height: 100vh;
@@ -74,6 +73,7 @@
 .gallery-img {
     width: 100%;
     max-width: 36rem;
+    max-height: 36rem;
     overflow: hidden;
 }
 
@@ -162,11 +162,6 @@
 .footer p {
     margin: 0;
     padding: 3rem;
-}
-
-body .full-width {
-    width: 100%;
-    flex: 1 1 100%;
 }
 
 .close-menu {
